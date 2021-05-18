@@ -49,7 +49,7 @@ const result = await run(type, schema, query);
 const tableData = tabulate(result);
 ```
 
-`tableData` will now contains array of 2D array represent tabulated result, and you can use library like [`table`](https://www.npmjs.com/package/table) to display the data in table
+`tableData` will now contains array of 2D array that represents tabulated result, and you can use library like [`table`](https://www.npmjs.com/package/table) to display the data in table
 
 ```js
 import { table } from "table";
