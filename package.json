@@ -1,5 +1,5 @@
 {
-	"name": "dbfiddle",
+	"name": "db-fiddle",
 	"version": "1.0.0",
 	"description": "DB Fiddle Unofficial API Wrapper",
 	"main": "dist/index.js",
@@ -11,14 +11,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wrepl/dbfiddle.git"
+		"url": "git+https://github.com/wrepl/db-fiddle.git"
 	},
 	"author": "wrepl",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/wrepl/dbfiddle/issues"
+		"url": "https://github.com/wrepl/db-fiddle/issues"
 	},
-	"homepage": "https://github.com/wrepl/dbfiddle#readme",
+	"homepage": "https://github.com/wrepl/db-fiddle#readme",
 	"devDependencies": {
 		"@types/jest": "^26.0.23",
 		"eslint": "^7.26.0",

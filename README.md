@@ -1,17 +1,17 @@
-# DBFiddle
+# DB Fiddle
 
-`dbfiddle` is an unofficial API wrapper for [db-fiddle.com](https://www.db-fiddle.com/) REPL website.
+`db-fiddle` is an unofficial API wrapper for [db-fiddle.com](https://www.db-fiddle.com/) REPL website.
 
 ## Installation
 
-`npm i dbfiddle`
+`npm i db-fiddle`
 
 ## Simple Usage
 
 ```js
-import { run } from "dbfiddle";
+import { run } from "db-fiddle";
 // or 
-const { run } = require("dbfiddle");
+const { run } = require("db-fiddle");
 
 const type = {
 	database: "mysql",
@@ -41,9 +41,9 @@ const result = await run(type, schema, query);
 ## Tabulate Result
 
 ```js
-import { run, tabulate } from "dbfiddle";
+import { run, tabulate } from "db-fiddle";
 // or 
-const { run, tabulate } = require("dbfiddle");
+const { run, tabulate } = require("db-fiddle");
 
 const result = await run(type, schema, query);
 const tableData = tabulate(result);
