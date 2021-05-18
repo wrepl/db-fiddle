@@ -1,0 +1,30 @@
+{
+	"name": "dbfiddle",
+	"version": "1.0.0",
+	"description": "DB Fiddle Unofficial API Wrapper",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "jest --watchAll",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wrepl/dbfiddle.git"
+	},
+	"author": "wils446",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wrepl/dbfiddle/issues"
+	},
+	"homepage": "https://github.com/wrepl/dbfiddle#readme",
+	"devDependencies": {
+		"@types/jest": "^26.0.23",
+		"eslint": "^7.26.0",
+		"jest": "^26.6.3",
+		"prettier": "^2.3.0",
+		"ts-jest": "^26.5.6",
+		"typescript": "^4.2.4"
+	}
+}
