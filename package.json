@@ -13,8 +13,8 @@
 		"type": "git",
 		"url": "git+https://github.com/wrepl/dbfiddle.git"
 	},
-	"author": "wils446",
-	"license": "ISC",
+	"author": "wrepl",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/wrepl/dbfiddle/issues"
 	},
